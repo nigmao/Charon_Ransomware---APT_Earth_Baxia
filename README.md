@@ -389,7 +389,7 @@ Trong quá trình mã hóa, Ransomware đặc biệt tránh mã hóa các tệp 
 
 ## III. IoC and MITRE-ATT&CK Framework
 
-- File Python [decode_dumpstack.py](./decode_dumpstack.py) - decrypt "DumpStack.log" để xác định và phân loại các mẫu cùng kỹ thuật mã hóa, triển khai file mã độc của APT Earth-Baxia.
+- File Python [decode_dumpstack.py](./decode_dumpstack.py) - decrypt "DumpStack.log" để xác định và phân loại các mẫu cùng kỹ thuật giải mã shellcode, triển khai file mã độc của APT Earth-Baxia.
 
 ### 1. IoC Table
 
@@ -509,4 +509,5 @@ notepad.exe
 - https://www.trendmicro.com/en_fi/research/25/h/new-ransomware-charon.html
 
 ---
+
 
