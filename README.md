@@ -86,7 +86,7 @@
 
 ![alt text](./images/image-9.png)
 
-- DLL độc hại thực hiện kỹ thuật Remote Shellcode Injection bằng CreateProcessA (suspended) + WriteProcessMemory + VirtualProtectEx + SetThreadContext + ResumeThread vào tiến trình "C:\Windows\System32\svchost.exe" để thực thi payload_shellcode được decrypt từ file "DumpStack.log" .
+- DLL độc hại thực hiện kỹ thuật Process Injection bằng CreateProcessA (suspended) + WriteProcessMemory + VirtualProtectEx + SetThreadContext + ResumeThread vào tiến trình "C:\Windows\System32\svchost.exe" để thực thi payload_shellcode được decrypt từ file "DumpStack.log" .
 
 ![alt text](./images/image-10.png)
 
@@ -509,3 +509,4 @@ notepad.exe
 - https://www.trendmicro.com/en_fi/research/25/h/new-ransomware-charon.html
 
 ---
+
